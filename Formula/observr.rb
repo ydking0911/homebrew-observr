@@ -1,28 +1,28 @@
 class Observr < Formula
-  desc "Zero-config local observability collector for AI agents and developers"
+  desc "Audit trail and causal attribution for AI agents"
   homepage "https://github.com/ydking0911/observr"
-  version "0.3.1"
+  version "0.5.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/ydking0911/observr/releases/download/v#{version}/observrd-darwin-arm64"
-      sha256 "182c76e1ae219d9f4f96accf317f3f8ef4f12d0b26382e4342273e77f9550726"
+      sha256 "5501aa7f599007b2cd6954b8bab0d77b0dddb7774577a011a0ec1352e5bbea5f"
     end
     on_intel do
       url "https://github.com/ydking0911/observr/releases/download/v#{version}/observrd-darwin-amd64"
-      sha256 "c55d092bfd9693ed52066c5d853e50b620f6d6eb52564442903486075e3d7330"
+      sha256 "3e354c9f60a6cae0cbd52cec73709d8f2b3a342c2d055fee8f8322e6330b4ee7"
     end
   end
 
   on_linux do
     on_arm do
       url "https://github.com/ydking0911/observr/releases/download/v#{version}/observrd-linux-arm64"
-      sha256 "4f9badcdadba6b7f850823039f7a471fd8a593b8e76bb35a09b28f3e1d44c960"
+      sha256 "a960d45bbfa67744da775af0204f3ae897fcbf77bc691c12e56dd9f2405c30a1"
     end
     on_intel do
       url "https://github.com/ydking0911/observr/releases/download/v#{version}/observrd-linux-amd64"
-      sha256 "d9831022aaa2b81401dceca39aff84f5eac0d9e657b474aba39229de01d3f5b5"
+      sha256 "62ef6edcd7a0078855e9de3bdaa9fc097bda70b135e101a6a0272f6c6315939f"
     end
   end
 
